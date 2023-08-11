@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* welcome.jsp ui */
+/* 서브 메인 이미지 */
+#sub_img{
+	width:971px; height:179px;
+	background-image:url(../images/company/sub_back.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#sub_menu{
+	width:238px; float:left; margin:20px font-size:1em;
+}
+#sub_menu ul{
+	list-style:none; /*목록 앞 마커 점 없애기*/
+	margin:20px 0px 0px 10px;
+}
+#sub_menu a{
+	text-decoration: none;
+	color:#666;
+	display:block;
+	width:150px;
+	height:15px;
+	padding:7px;
+	border-bottom-width: 1px; /*밑줄선 두께*/
+	border-bottom-style: dotted; /*밑줄 점선*/
+	border-bottom-color:#999; /*밑줄선 색*/
+	background-image:url(../images/bullet.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+#sub_menu a:hover{
+	color:#F90;
+	background-image:url(../images/bullet_orange.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+/*서브 메인 본문 ui*/
+#sub_main_cont{
+	width:675px; border:0px solid #ccc; float:right;
+	margin-right:15px; /*바깥 오른쪽 여백을 지정*/
+	
+}
+#sub_main_cont h1{
+	font-family:"궁서체";
+	font-size:45px;
+	color:#ccc;
+	margin:20px 10px; /*상하 바깥 여백은 20픽셀,좌우 바깥여백은 0픽셀*/
+	font-weight:normal; /*진하게 안하고 보통으로*/
+}
+#sub_main_cont p{
+	padding-left:10px; /*왼쪽 안여백 설정으로 들여쓰기 효과*/
+}
+figure.ceo{
+	float:right; /* 이미지는 오른쪽에 배치되고 나머지 문자는 자연스럽게 수평으로 왼쪽에 배치된다.*/
+	margin:5px;
+}
+figcaption{
+	text-align: center;
+	color:#39f;
+	font-weight:bolder;
+}
+
+/* history.jsp ui */
+#sub_main_cont .y2023, #sub_main_cont .y2022, #sub_main_cont .y2021{
+	border-top-width: 1px; /*윗줄선 두께를 1픽셀로 지정*/
+	border-top-style: solid; /*윗줄선 스타일을 실선*/
+	border-top-color: #999; /*윗줄선 색*/
+	padding:10px 0px 0px 150px;
+}
+#sub_main_cont .y2023 dt, #sub_main_cont .y2022 dt, #sub_main_cont .y2021 dt{
+	float:left;
+	text-transform: capitalize; /*영문 단어 첫글자만 대문자로 한다.*/
+	font-family: Tahoma,Geneva, sans-serif;
+	font-size: 18px;
+	color:#39F;
+	padding-top: 3px; /*위쪽 안여백 지정*/
+	margin: 0px;
+}
+#sub_main_cont .y2023 dd, #sub_main_cont .y2022 dd, #sub_main_cont .y2021 dd{
+	line-height:2em; /*글자 수직정렬도 가능하고, 수직간 간격을 벌릴때 이용된다. */
+	padding:0px 0px 0px 15px;
+	font-size:14px;
+	background-image:url(../images/company/h_bullet.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#sub_main_cont .y2023 h3, #sub_main_cont .y2022 h3, #sub_main_cont .y2021 h3{
+	font-size: 34px;
+}
+
+
+
+
